@@ -75,7 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             margin: 16px;
             border:  12px solid #3ed0c2;
             -webkit-box-shadow: 0 0 8px #d06132;
-            
+
 
     </style>
 </head>
