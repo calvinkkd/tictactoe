@@ -1,3 +1,6 @@
+
+
+
 <div class="container-fluid">
     <div class="row mainpanel">
         <div class="col-md-9 leftpanel">
@@ -73,6 +76,7 @@ Basic introduction:
 -game result is saved and latest 5 records are fetched using jQuery ajax.
 -data interchange between server and client is done using JSON.
 
+
 Technical documentation:
 CodeIgniter
     Views:
@@ -87,15 +91,7 @@ CodeIgniter
             Tictactoe.php: loads scores model, helper, scores and sets game level for its view.
     Models:
             Scores_model.php: gets latest 5 games scores from db and sets scores table records. its also logging info in the logs.
-            
-MySQL
-        please execute following in database.
-            CREATE TABLE `scores2` (
-              `id` int(11) NOT NULL primary key AUTO_INCREMENT,
-              `against` varchar(10) NOT NULL,
-              `winner` varchar(32) NOT NULL,
-              `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
-            )
+
 jQuery
         
 gstruct:        

@@ -23,10 +23,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         ::-moz-selection { background-color: #E13300; color: white; }
 
         body {
-            background-color: #8cc8b9;
-            margin: 260px;
+            background: url(../assets/images/noise.png), -moz-radial-gradient(center, ellipse cover, #a374ee 0%, #b57a98 100%);
+            margin: 90px;
+            height: 220px;
+            width: 420px;
             font: 13px/20px normal Helvetica, Arial, sans-serif;
-            color: #4F5155;
+            color: #fffdff;
         }
 
         a {
@@ -63,7 +65,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         p.footer {
             text-align: right;
             font-size: 11px;
-            border-top: 5px solid #3f48d0;
+            border-top: 5px solid #0fd0be;
             line-height: 32px;
             padding: 0 10px 0 10px;
             margin: 20px 0 0 0;

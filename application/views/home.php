@@ -12,10 +12,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         ::-moz-selection { background-color: #E13300; color: white; }
 
         body {
-            background-color: #c88f94;
-            margin: 260px;
+            background: url(../assets/images/noise.png), -moz-radial-gradient(center, ellipse cover, #3eeed6 0%, #b57a98 100%);
+            margin: 90px;
+            height: 220px;
+            width: 520px;
             font: 13px/20px normal Helvetica, Arial, sans-serif;
-            color: #4F5155;
+            color: #fffdff;
         }
 
         a {
