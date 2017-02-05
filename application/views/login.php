@@ -84,7 +84,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div id="container">
 	<h1>Welcome to a Tic-Tac-Toe Game!</h1>
 
-            <h1>Sign in to play</h1>
+            <h1>Sign in to play the game</h1>
 
     <?php echo validation_errors();?>
 
