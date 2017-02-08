@@ -7,6 +7,8 @@
  * Time: 10:53
  */
 
+// here goes the css files
+
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
@@ -17,71 +19,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<meta charset="utf-8">
 	<title>Welcome to CodeIgniter</title>
-
-	<style type="text/css">
-        ::selection { background-color: #E13300; color: white; }
-        ::-moz-selection { background-color: #E13300; color: white; }
-
-        body {
-            background: url(../assets/images/noise.png), -moz-radial-gradient(center, ellipse cover, #a374ee 0%, #b57a98 100%);
-            margin: 90px;
-            height: 220px;
-            width: 420px;
-            font: 13px/20px normal Helvetica, Arial, sans-serif;
-            color: #fffdff;
-        }
-
-        a {
-            color: #e8192a;
-            background-color: transparent;
-            font-weight: normal;
-        }
-
-        h1 {
-            color: #444;
-            background-color: transparent;
-            border-bottom: 1px solid #D0D0D0;
-            font-size: 19px;
-            font-weight: normal;
-            margin: 0 0 14px 0;
-            padding: 14px 15px 10px 15px;
-        }
-
-        code {
-            font-family: Consolas, Monaco, Courier New, Courier, monospace;
-            font-size: 16px;
-            background-color: #c2d03e;
-            border: 6px solid #D0D0D0;
-            color: #002166;
-            display: ruby;
-            margin: 14px 0 14px 0;
-            padding: 12px 10px 12px 10px;
-        }
-
-        #body {
-            margin: 0 15px 0 15px;
-        }
-
-        p.footer {
-            text-align: right;
-            font-size: 11px;
-            border-top: 5px solid #0fd0be;
-            line-height: 32px;
-            padding: 0 10px 0 10px;
-            margin: 20px 0 0 0;
-        }
-
-        #container {
-            margin: 16px;
-            border:  12px solid #3ed0c2;
-            -webkit-box-shadow: 0 0 8px #d06132;
+    <meta http-equiv="content-type" content="text/html"; charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css.bootstrap-responsive.min.css" rel="stylesheet">
 
 
-    </style>
+
+
+
 </head>
 <body>
 
 <div id="container">
+
 	<h1>Welcome to a Tic-Tac-Toe Game!</h1>
 
             <h1>Sign in to play the game</h1>
@@ -91,10 +42,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <?php echo form_open('LoginController/checkLogin');?>
 
     Username: <br/>
-    <input type ="text" name="username"/><br/>
+    <input type ="text" name="username" size="15" maxlength="30"/><br/>
 
     Password: <br/>
-    <input type="text" name="password"/>
+    <input type="password" name="password" size="15"    maxlength="30" />
 
     <input type="submit" value="Login" name="submit"/>
 
@@ -105,6 +56,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds.
         <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
 </div>
+
+<script src="/assets/js/bootstrap.js"></script>
+<script src="/assets/js/bootstrap.js"></script>
 
 </body>
 </html>

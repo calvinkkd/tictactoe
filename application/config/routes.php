@@ -58,5 +58,5 @@ $route['translate_uri_dashes'] = FALSE;
 $route['scores/create'] = 'scores/create';
 $route['scores/(:any)'] = 'scores/view/$1';
 $route['scores'] = 'scores';
-
+$route[''] = '';
 $route['tictactoe'] = 'tictactoe';

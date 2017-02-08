@@ -10,6 +10,7 @@ html, body, .container-fluid {
 .gameboard {
     height: 100%;
     margin: auto;
+
 }
 .gameboard .row{
     height:29%;
