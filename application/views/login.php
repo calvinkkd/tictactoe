@@ -24,10 +24,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="css.bootstrap-responsive.min.css" rel="stylesheet">
 
-
-
-
-
 </head>
 <body>
 
@@ -53,12 +49,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <p>How to play <a href="/play_tictactoe">how_to_play</a>.</p>
 	</div>
-    <p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds.
-        <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+
 </div>
-
-<script src="/assets/js/bootstrap.js"></script>
-<script src="/assets/js/bootstrap.js"></script>
-
+        <script src="/assets/js/bootstrap.js"></script>
+        <script src="/assets/js/bootstrap.js"></script>
 </body>
 </html>
