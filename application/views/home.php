@@ -70,13 +70,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             transition: box-shadow .5s ease;
         }
         input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+
+        body {
+            font-family: Arial, Sans-Serif;}
+            h1, {
+                color: #a6e1ec;}
+            p {
+                color: #cbd04b;
+            }
+        a {
+            color: #a6e1ec;
+        }
     </style>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script
     </head>
 <body>
 
-<div id="container">
+<div
         <?php echo form_open('LoginController/checkLogin');?>
 
     <h1>Welcome to TicTacToe Game!</h1>
